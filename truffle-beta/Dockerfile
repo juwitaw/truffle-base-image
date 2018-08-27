@@ -1,5 +1,5 @@
 FROM node:9-alpine
-MAINTAINER Juwita Winadwiastuti <juwita.winadwiastuti@dattabot.io>
+LABEL maintainer="Juwita Winadwiastuti <juwita.winadwiastuti@dattabot.io>"
 RUN rm -rf /var/cache/apk/* && \
     apk update && \
     apk upgrade && \
