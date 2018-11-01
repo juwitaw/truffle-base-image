@@ -7,5 +7,7 @@ RUN rm -rf /var/cache/apk/* && \
     apk add --no-cache bash && \
     npm install -g truffle@beta && \
     npm install mocha@5.2.0 && \
-    npm install mocha-junit-reporter@1.17.0
+    npm install mocha-junit-reporter@1.17.0 && \
+    npm install solidity-coverage@0.5.11 && \
+    sed -i 's/lcov/cobertura/g' ./node_modules/solidity-coverage/lib/app.js
 CMD ["truffle"]
