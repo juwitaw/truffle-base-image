@@ -8,7 +8,7 @@ RUN apk update && \
     apk upgrade && \
     apk --update add python py-pip git make g++ && \
     apk add --no-cache bash && \
-    npm install -g truffle@beta && \
+    npm install -g --unsafe-perm truffle@beta && \
     npm install -g mocha@5.2.0 && \
     npm install -g mocha-junit-reporter@1.18.0 && \
     npm install && \
