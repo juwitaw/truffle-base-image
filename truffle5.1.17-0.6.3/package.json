@@ -1,6 +1,6 @@
 {
   "name": "docker-truffle",
-  "version": "1.0.0",
+  "version": "truffle5.1.17-0.6.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "solidity-coverage": "0.7.0"
+  "dependencies": {
+    "solidity-coverage": "0.7.2"
   }
 }
