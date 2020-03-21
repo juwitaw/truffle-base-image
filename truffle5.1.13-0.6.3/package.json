@@ -1,0 +1,14 @@
+{
+  "name": "docker-truffle",
+  "version": "truffle5.1.17-0.6.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solidity-coverage": "0.7.2"
+  }
+}
